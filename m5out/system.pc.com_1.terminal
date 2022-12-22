@@ -1,0 +1,72 @@
+Linux version 2.6.22.9 (gblack@fajita) (gcc version 4.1.2 (Gentoo 4.1.2 p1.1)) #12 SMP Fri Feb 27 22:10:33 PST 2009
+Command line: earlyprintk=ttyS0 console=ttyS0 lpj=7999923 root=/dev/hda1
+BIOS-provided physical RAM map:
+ BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+ BIOS-e820: 000000000009fc00 - 0000000000100000 (reserved)
+ BIOS-e820: 0000000000100000 - 00000000c0000000 (usable)
+ BIOS-e820: 00000000ffff0000 - 0000000100000000 (reserved)
+ BIOS-e820: 0000000100000000 - 0000000140000000 (usable)
+end_pfn_map = 1310720
+kernel direct mapping tables up to 140000000 @ 8000-e000
+DMI 2.5 present.
+Zone PFN ranges:
+  DMA             0 ->     4096
+  DMA32        4096 ->  1048576
+  Normal    1048576 ->  1310720
+early_node_map[3] active PFN ranges
+    0:        0 ->      159
+    0:      256 ->   786432
+    0:  1048576 ->  1310720
+Intel MultiProcessor Specification v1.4
+MPTABLE: OEM ID:  MPTABLE: Product ID:  MPTABLE: APIC at: 0xFEE00000
+Processor #0 (Bootup-CPU)
+Processor #1
+Processor #2
+Processor #3
+I/O APIC #4 at 0xFEC00000.
+Setting APIC routing to flat
+Processors: 4
+Allocating PCI resources starting at c4000000 (gap: c0000000:3fff0000)
+PERCPU: Allocating 34160 bytes of per cpu data
+Built 1 zonelists.  Total pages: 1028948
+Kernel command line: earlyprintk=ttyS0 console=ttyS0 lpj=7999923 root=/dev/hda1
+Initializing CPU#0
+PID hash table entries: 4096 (order: 12, 32768 bytes)
+Marking TSC unstable due to TSCs unsynchronized
+time.c: Detected 2000.007 MHz processor.
+Console: colour dummy device 80x25
+console handover: boot [earlyser0] -> real [ttyS0]
+Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Checking aperture...
+PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Placing software IO TLB between 0x5c50000 - 0x9c50000
+Memory: 4043312k/5242880k available (3699k kernel code, 150540k reserved, 1767k data, 248k init)
+Calibrating delay loop (skipped)... 3999.96 BogoMIPS preset
+Mount-cache hash table entries: 256
+CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+CPU: L2 Cache: 1024K (64 bytes/line)
+using mwait in idle threads.
+Freeing SMP alternatives: 34k freed
+Using local APIC timer interrupts.
+result 7812542
+Detected 7.812 MHz APIC timer.
+Booting processor 1/4 APIC 0x1
+Initializing CPU#1
+Calibrating delay loop (skipped)... 3999.96 BogoMIPS preset
+CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+CPU: L2 Cache: 1024K (64 bytes/line)
+Fake M5 x86_64 CPU stepping 01
+Booting processor 2/4 APIC 0x2
+Initializing CPU#2
+Calibrating delay loop (skipped)... 3999.96 BogoMIPS preset
+CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+CPU: L2 Cache: 1024K (64 bytes/line)
+Fake M5 x86_64 CPU stepping 01
+Booting processor 3/4 APIC 0x3
+Initializing CPU#3
+Calibrating delay loop (skipped)... 3999.96 BogoMIPS preset
+CPU: L1 I Cache: 64K (64 bytes/line), D cache 64K (64 bytes/line)
+CPU: L2 Cache: 1024K (64 bytes/line)
+Fake M5 x86_64 CPU stepping 01
+Brought up 4 CPUs

@@ -1,0 +1,1 @@
+/home/faculty/gem5/ext/drampower/src/MemArchitectureSpec.h
